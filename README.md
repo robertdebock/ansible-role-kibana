@@ -4,7 +4,7 @@ Install and configure Kibana on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-kibana/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-kibana/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-kibana/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-kibana)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/kibana)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/kibana)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-kibana.svg)](https://github.com/robertdebock/ansible-role-kibana/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-kibana/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-kibana/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-kibana/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-kibana)|[![quality](https://img.shields.io/ansible/quality/56421)](https://galaxy.ansible.com/robertdebock/kibana)|[![downloads](https://img.shields.io/ansible/role/d/56421)](https://galaxy.ansible.com/robertdebock/kibana)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-kibana.svg)](https://github.com/robertdebock/ansible-role-kibana/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -47,6 +47,12 @@ The default values for the variables are set in `defaults/main.yml`:
 # Elastic offers both "oss" (Apache 2.0 license) and "elastic"
 # (Elastic license). Select the type here. Either "oss" or "elastic"
 kibana_type: oss
+
+kibana_server_port: 5601
+kibana_server_host: 0.0.0.0
+
+kibana_elasticsearch_hosts:
+  - "http://localhost:9200"
 ```
 
 ## [Requirements](#requirements)
