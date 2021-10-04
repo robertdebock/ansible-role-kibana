@@ -3,7 +3,7 @@ galaxy_info:
   author: Robert de Bock
   role_name: kibana
   namespace: robertdebock
-  description: Install and configure kibana on your system.
+  description: Install and configure Kibana on your system.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.9
