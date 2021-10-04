@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure kibana on your system.
+  homepage: https://robertdebock.nl/
+  topics: kibana, ansible, molecule, tox, playbook, hacktoberfest
