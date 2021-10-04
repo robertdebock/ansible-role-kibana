@@ -6,7 +6,7 @@
 kibana_type: oss
 
 kibana_server_port: 5601
-kibana_server_host: localhost
+kibana_server_host: 0.0.0.0
 
 kibana_elasticsearch_hosts:
   - "http://localhost:9200"
