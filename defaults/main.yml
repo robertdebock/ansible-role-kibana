@@ -4,3 +4,9 @@
 # Elastic offers both "oss" (Apache 2.0 license) and "elastic"
 # (Elastic license). Select the type here. Either "oss" or "elastic"
 kibana_type: oss
+
+kibana_server_port: 5601
+kibana_server_host: localhost
+
+kibana_elasticsearch_hosts:
+  - "http://localhost:9200"

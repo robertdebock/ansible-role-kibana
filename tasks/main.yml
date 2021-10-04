@@ -11,6 +11,16 @@
     name: "{{ kibana_package }}"
     state: present
 
+- name: configure kibana
+  template:
+    src: kibana.yml.j2
+    dest: /etc/kibana/kibana.yml
+    owner: kibana
+    group: kibana
+    mode: "0660"
+  notify:
+    - restart kibana
+
 - name: start kibana
   ansible.builtin.service:
     name: kibana
