@@ -7,12 +7,12 @@
   delegate_to: localhost
 
 - name: install kibana
-  package:
+  ansible.builtin.package:
     name: "{{ kibana_package }}"
     state: present
 
 - name: start kibana
-  service:
+  ansible.builtin.service:
     name: kibana
     state: started
     enabled: yes
