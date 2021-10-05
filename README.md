@@ -48,9 +48,13 @@ The default values for the variables are set in `defaults/main.yml`:
 # (Elastic license). Select the type here. Either "oss" or "elastic"
 kibana_type: oss
 
-kibana_server_port: 5601
+# The IP addres to bind on.
 kibana_server_host: 0.0.0.0
 
+# The TCP port to bind on.
+kibana_server_port: 5601
+
+# A list of elasticsearch urls.
 kibana_elasticsearch_hosts:
   - "http://localhost:9200"
 ```
