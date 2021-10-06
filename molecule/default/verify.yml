@@ -8,12 +8,3 @@
     - name: check if port 5601 is open
       ansible.builtin.wait_for:
         port: 5601
-
-    # Disabled; CI hosts do not provide sufficient resources.
-    # - name: check web interface
-    #   uri:
-    #     url: "http://localhost:5601/app/home"
-    #   register: kibana_test_one
-    #   until: kibana_test_one is not failed
-    #   retries: 5
-    #   delay: 10
