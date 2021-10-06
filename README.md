@@ -32,7 +32,6 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: robertdebock.bootstrap
     - role: robertdebock.core_dependencies
     - role: robertdebock.elastic_repo
-    - role: robertdebock.elasticsearch
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -72,7 +71,6 @@ The following roles are used to prepare a system. You can prepare your system in
 |[robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-bootstrap)|
 |[robertdebock.core_dependencies](https://galaxy.ansible.com/robertdebock/core_dependencies)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-core_dependencies/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-core_dependencies/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-core_dependencies)|
 |[robertdebock.elastic_repo](https://galaxy.ansible.com/robertdebock/elastic_repo)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-elastic_repo/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-elastic_repo/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-elastic_repo)|
-|[robertdebock.elasticsearch](https://galaxy.ansible.com/robertdebock/elasticsearch)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-elasticsearch/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-elasticsearch/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-elasticsearch)|
 
 ## [Context](#context)
 
