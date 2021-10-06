@@ -8,7 +8,7 @@
 
 - name: install kibana
   ansible.builtin.package:
-    name: "{{ kibana_package }}"
+    name: "{{ kibana_requirements + kibana_package }}"
     state: present
 
 - name: configure kibana
