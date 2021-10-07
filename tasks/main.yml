@@ -12,7 +12,7 @@
     state: present
 
 - name: configure kibana
-  template:
+  ansible.builtin.template:
     src: kibana.yml.j2
     dest: /etc/kibana/kibana.yml
     owner: kibana
