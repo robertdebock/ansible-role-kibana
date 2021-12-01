@@ -48,7 +48,7 @@ The default values for the variables are set in `defaults/main.yml`:
 kibana_type: oss
 
 # The IP addres to bind on.
-kibana_server_host: 0.0.0.0
+kibana_server_host: "0.0.0.0"
 
 # The TCP port to bind on.
 kibana_server_port: 5601
