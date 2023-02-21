@@ -27,8 +27,6 @@ molecule:
       - image: "fedora"
         tag: "36"
       - image: "fedora"
-        tag: "latest"
-      - image: "fedora"
         tag: "rawhide"
       - image: "ubuntu"
         tag: "focal"
