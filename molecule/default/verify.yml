@@ -5,6 +5,6 @@
   gather_facts: no
 
   tasks:
-    - name: check if port 5601 is open
+    - name: Check if port 5601 is open
       ansible.builtin.wait_for:
         port: 5601
