@@ -22,6 +22,7 @@
     that:
       - kibana_server_host is defined
       - kibana_server_host is string
+      - kibana_server_host is not none
     quiet: yes
 
 - name: assert | Test if kibana_elasticsearch_hosts is set correctly
