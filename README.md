@@ -1,4 +1,4 @@
-# Ansible role [kibana](#kibana)
+# [Ansible role kibana](#kibana)
 
 Install and configure Kibana on your system.
 
