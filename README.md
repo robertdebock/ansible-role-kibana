@@ -1,5 +1,7 @@
 # [Ansible role kibana](#kibana)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure Kibana on your system.
 
 |GitHub|GitLab|Downloads|Version|
